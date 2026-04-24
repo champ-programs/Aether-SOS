@@ -1,0 +1,25 @@
+name: aether_sos
+description: "Aether SOS - Liquid Glass Interface for Mesh Network"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # UI 相關套件
+  google_fonts: ^6.1.0
+  flutter_animate: ^4.2.0 # 用於微動畫與光暈擴散
+  provider: ^6.1.1 # 狀態管理
+  # FFI 相關 (預留給 Rust Core)
+  ffi: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
